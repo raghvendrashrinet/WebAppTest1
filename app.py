@@ -1,10 +1,10 @@
-from flask import Flask
+tefrom flask import Flask
 
 app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello from Azure App Service (Flask)!"
+    return "Hello Edited from Azure App Service (Flask)!"
 
 @app.route("/health")
 def health():
